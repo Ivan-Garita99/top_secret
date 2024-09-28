@@ -1,0 +1,44 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("img/paisaje-forestal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*para que la imagen este de fondo*/
+    background-attachment: fixed;
+    /*Hace responsiva la imagen de fondo segun se haga*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrap {
+
+
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(4px);
+
+}
+
+p {
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
