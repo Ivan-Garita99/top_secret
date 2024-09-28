@@ -16,7 +16,3 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('transform', `translate(-${randomX}%,-${randomY}%)`);
 })
 
-function enviarCorreo() {
-    document.getElementById("miForm").submit();
-
-}
