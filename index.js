@@ -24,7 +24,7 @@ yesBtn.addEventListener('click', function (event) {
                 icon: 'question',
                 showCancelButton: true,
                 confirmButtonText: 'Sí',
-                cancelButtonText: 'O, ¿qué te parece?' // Cambia el texto aquí
+                cancelButtonText: 'O, qué te parece..' // Cambia el texto aquí
             }).then((result) => {
                 if (result.isConfirmed) {
                     Swal.fire('¡Genial! Nos vemos al salir. 🎉');
