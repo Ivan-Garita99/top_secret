@@ -1,20 +1,34 @@
 body {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     background-image: url("img/paisaje-forestal.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*para que la imagen este de fondo*/
     background-attachment: fixed;
-    /*Hace responsiva la imagen de fondo segun se haga*/
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
+.swal2-container {
+    z-index: 9999;
+    /* Para asegurar que SweetAlert se muestre sobre otros elementos */
+}
+
 .wrap {
+
+
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(4px);
+
+}
+
+.fix {
 
 
     color: aliceblue;
@@ -30,6 +44,11 @@ p {
     padding: 15%;
 }
 
+a {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
 button {
     font-size: xx-large;
     padding: 0.75em;
@@ -41,4 +60,9 @@ button {
 
 #noBtn {
     position: absolute;
+}
+
+.swal2-container {
+    z-index: 9999;
+    /* Asegúrate de que este valor sea suficientemente alto */
 }
